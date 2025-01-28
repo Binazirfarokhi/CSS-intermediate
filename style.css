@@ -1,0 +1,61 @@
+
+html{
+    margin: 0;
+    padding: 0;
+}
+/* 
+Padding : add space between contents of the box and the edge of the box
+Margin: add space around the outside of the box. 
+Border is outside of the padding 
+ */
+h1{
+    background-color: #5d9d81 !important;
+    /* display: none; */
+}
+.heading{
+    background-color: #bf8181;
+    padding: 20px;
+    border: 10px solid black;
+    width:50%;
+    height: 50vh;
+}
+/* height and width 
+for the height we will use vh
+for the width we use %
+*/
+h2{
+    margin: 50px;
+    font-size: 4rem;
+    /* def is 16px => 4*16=64px */
+    /* the default size of the root element is 16 px : 5rem => 5*16= ?px */
+    padding: 20px;
+    background-color: #7b9fd0;
+    width:50%;
+}
+.paragraph.element{
+    background-color: #7283d0;
+}
+/* specifictiy cal : 
+(No of IDs, No of Classes, No of elements) */
+
+/* p#target.paragraph.element{
+    background-color: #fff;
+} */
+.division{
+    background-color: #a85757;
+}
+#headline{
+    background-color: #37b063;
+}
+/* preferences: !important >inline style >ID > classes > element */
+.divisionTwo{
+    padding: 20px;
+    background-color: #d55ea2;
+}
+/* fragment identifier : 
+https://langara-app.ca#headline */
+
+/* display */
+.display{
+    display: inline;
+}
